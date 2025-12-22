@@ -8,7 +8,7 @@ echo -e '\033[31;40;1m
 ███████║███████║██║     █████╔╝    ██║   ██║   ██║██║   ██║██╔██╗ ██║
 ██╔══██║██╔══██║██║     ██╔═██╗    ██║   ██║   ██║██║   ██║██║╚██╗██║
 ██║  ██║██║  ██║╚██████╗██║  ██╗    ██║   ╚██████╔╝╚██████╔╝██║ ╚████║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v 4.8 2025
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v4.8 2025
   Coded by Tahmid Kibria 
   github: https://github.com/Tahmid-kibria/hacktoon
 \033[33;4mVersion:\033[0m 4.8             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
@@ -24,7 +24,7 @@ echo -e '\033[31;40;1m
 \e[37m[17]\e[36m DARKARMY                     \e[37m[18]\e[36m AUTO-IP-CHANGER
 '
 
-read -p "Numri i transaksionit: " islem
+read -p "Number i transaksionit: " islem
 
 if [[ $islem == 1 || $islem == "01" ]]; then
     clear
@@ -106,7 +106,7 @@ echo "Youtube Video: https://www.youtube.com/watch?v=zgdq6ErscqY"
 python3 -m webbrowser https://www.youtube.com/watch?v=zgdq6ErscqY
 sleep 10
 echo "Prisni 10 sekonda"
-bash alhack.sh
+bash hacktoon.sh
 
  
 elif [[ $islem == 8 || $islem == 08 ]]; then
@@ -115,7 +115,7 @@ echo -e "\033[47;3;35m PO HIQEN PROGRAMET E SHKARKUARA...\033[0m"
 sleep 3 
 rm -rf Tools
 
-bash alhack.sh
+bash hacktoon.sh
 
 elif [[ $islem == 9 || $islem == 09 ]]; then
 clear
@@ -244,7 +244,6 @@ else
 	clear 
 	bash alhack.sh
 fi
-
 
 
 
