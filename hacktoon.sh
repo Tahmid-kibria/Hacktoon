@@ -8,10 +8,10 @@ echo -e '\033[31;40;1m
 ███████║███████║██║     █████╔╝    ██║   ██║   ██║██║   ██║██╔██╗ ██║
 ██╔══██║██╔══██║██║     ██╔═██╗    ██║   ██║   ██║██║   ██║██║╚██╗██║
 ██║  ██║██║  ██║╚██████╗██║  ██╗    ██║   ╚██████╔╝╚██████╔╝██║ ╚████║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v 4.7 2025
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v 4.8 2025
   Coded by Tahmid Kibria 
   github: https://github.com/Tahmid-kibria/hacktoon
-\033[33;4mVersion:\033[0m 4.7             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
+\033[33;4mVersion:\033[0m 4.8             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
 
 \e[37m[1]\e[36m Requests & Updates            \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m Subscan			
@@ -244,6 +244,7 @@ else
 	clear 
 	bash alhack.sh
 fi
+
 
 
 
