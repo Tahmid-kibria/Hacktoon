@@ -23,8 +23,6 @@ echo -e '\033[31;40;1m
 \e[37m[17]\e[36m DARKARMY                     \e[37m[18]\e[36m AUTO-IP-CHANGER
 
 '
-
-
 #Zgjedhja e Opsionit
 
 
@@ -247,3 +245,4 @@ else
 	clear 
 	bash alhack.sh
 fi
+
