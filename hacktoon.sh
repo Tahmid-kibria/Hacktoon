@@ -1,7 +1,12 @@
 #!/bin/bash
+
+if [[ -f "$0" ]]; then
+    sed -i 's/\r//g' "$0"
+    sed -i 's/\xc2\xa0/ /g' "$0"
+fi
+
 clear
 mkdir -p Tools
-sed -i 's/\r$//' hacktoon.sh
 clear 
 echo -e '\033[31;40;1m 
 ██╗  ██╗ █████╗  ██████╗██╗  ██╗████████╗ ██████╗  ██████╗ ███╗   ██╗
@@ -246,7 +251,8 @@ else
 	bash alhack.sh
 fi
 
-sed -i 's/\r$//' hacktoon.sh
+
+
 
 
 
