@@ -1,7 +1,7 @@
-sed -i 's/\r$//' hacktoon.sh
 #!/bin/bash
 clear
 mkdir -p Tools
+sed -i 's/\r$//' hacktoon.sh
 clear 
 echo -e '\033[31;40;1m 
 ██╗  ██╗ █████╗  ██████╗██╗  ██╗████████╗ ██████╗  ██████╗ ███╗   ██╗
@@ -245,6 +245,8 @@ else
 	clear 
 	bash alhack.sh
 fi
+
+sed -i 's/\r$//' hacktoon.sh
 
 
 
