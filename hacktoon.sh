@@ -1,3 +1,4 @@
+dos2unix hacktoon.sh
 #!/bin/bash
 clear
 mkdir -p Tools
