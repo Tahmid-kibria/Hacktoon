@@ -22,6 +22,7 @@ works on any of the following operating systems:
 * Open the terminal and type `<pkg install git>`
 * Then`<git clone https://github.com/Tahmid-kibria/hacktoon>`
 * `<cd Hacktoon>`
+*  `<dos2unix hacktoon.sh>`
 * `<bash hacktoon.sh>`
 
 # if you have some ERORE
