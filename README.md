@@ -32,7 +32,7 @@ hacktoon.sh: line 33: $'\r': command not found
 hacktoon.sh: line 34: syntax error near unexpected token `$'in\r''                                                                                           
 'acktoon.sh: line 34: case $islem in  
 
-*Eror fix
+* Eror fix
 
 Install the converter:
 
