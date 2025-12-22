@@ -1,9 +1,4 @@
 #!/bin/bash
-# Hacktoon v2.3 - Full Integrated Version for Kali Linux
-
-# Ky bllok fshin automatikisht gabimet e formatimit nga Windows (\r)
-
-
 clear
 mkdir -p Tools
 clear 
@@ -13,13 +8,13 @@ echo -e '\033[31;40;1m
 ███████║███████║██║     █████╔╝    ██║   ██║   ██║██║   ██║██╔██╗ ██║
 ██╔══██║██╔══██║██║     ██╔═██╗    ██║   ██║   ██║██║   ██║██║╚██╗██║
 ██║  ██║██║  ██║╚██████╗██║  ██╗    ██║   ╚██████╔╝╚██████╔╝██║ ╚████║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v 2.3 2025
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v 4.7 2025
   Coded by Tahmid Kibria 
   github: https://github.com/Tahmid-kibria/hacktoon
-\033[33;4mVersion:\033[0m 2.3             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
+\033[33;4mVersion:\033[0m 4.7             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
 
 \e[37m[1]\e[36m Requests & Updates            \e[37m[2]\e[36m Phishing Tool				
-\e[37m[3]\e[36m WebCam Hack                    \e[37m[4]\e[36m Subscan			
+\e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m Subscan			
 \e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m DDOS Attack			
 \e[37m[7]\e[36m How to use?	                \e[37m[8]\e[36m Uninstall downloaded programs		
 \e[37m[9]\e[36m Ip Info	                  \e[37m[10]\e[36m dorks-eye
@@ -31,88 +26,6 @@ echo -e '\033[31;40;1m
 
 read -p "Numri i transaksionit: " islem
 
-case $islem in
-    1|01)
-        clear
-        echo -e "\033[47;31;5m Po instalon kërkesat...\033[0m"
-        sudo apt update && sudo apt upgrade -y
-        sudo apt install git python3 python3-pip python2 curl php tor dos2unix -y
-        bash "$0"
-        ;;
-    2|02)
-        cd Tools && git clone https://github.com/htr-tech/zphisher
-        cd zphisher && bash zphisher.sh
-        ;;
-    3|03)
-        cd Tools && git clone https://github.com/techchipnet/CamPhish
-        cd CamPhish && bash camphish.sh
-        ;;
-    4|04)
-        cd Tools && git clone https://github.com/zidansec/subscan
-        cd subscan && read -p "Jepni nje domain (example.com): " sc
-        ./subscan $sc
-        ;;
-    5|05)
-        cd Tools && git clone https://github.com/juzeon/fast-mail-bomber.git
-        cd fast-mail-bomber && php index.php update-providers
-        read -p "Jepni adresen e emailit: " mail
-        php index.php start-bombing $mail
-        ;;
-    6|06)
-        cd Tools && git clone https://github.com/palahsu/DDoS-Ripper.git
-        cd DDoS-Ripper && python3 DRipper.py
-        ;;
-    8|08)
-        rm -rf Tools && echo "Programet u hoqën." && sleep 2 && bash "$0"
-        ;;
-    9|09)
-        cd Tools && git clone https://github.com/htr-tech/track-ip.git
-        cd track-ip && bash trackip
-        ;;
-    10)
-        cd Tools && git clone https://github.com/BullsEye0/dorks-eye.git
-        cd dorks-eye && pip3 install -r requirements.txt && python3 dorks-eye.py
-        ;;
-    11)
-        cd Tools && git clone https://github.com/jaykali/hackerpro.git
-        cd hackerpro && sudo bash install.sh && python2 hackerpro.py
-        ;;
-    12)
-        cd Tools && git clone https://github.com/Tuhinshubhra/RED_HAWK
-        cd RED_HAWK && php rhawk.php
-        ;;
-    13)
-        cd Tools && git clone https://github.com/Devil-Tigers/TigerVirus
-        cd TigerVirus && bash app.sh
-        ;;
-    14)
-        cd Tools && git clone https://github.com/king-hacking/info-site.git
-        cd info-site && bash info.sh
-        ;;
-    15)
-        cd Tools && git clone https://github.com/MrSqar-Ye/BadMod.git
-        cd BadMod && sudo php BadMod.php
-        ;;
-    16)
-        cd Tools && git clone https://github.com/fu8uk1/facebash
-        cd facebash && bash install.sh && sudo ./facebash.sh
-        ;;
-    17)
-        cd Tools && git clone https://github.com/D4RK-4RMY/DARKARMY
-        cd DARKARMY && python2 darkarmy.py
-        ;;
-    18|018)
-        sudo apt install tor -y && pip3 install requests
-        cd Tools && git clone https://github.com/FDX100/Auto_Tor_IP_changer.git
-        cd Auto_Tor_IP_changer && sudo python3 install.py
-        ;;
-    *)
-        clear
-        echo -e '\033[36;40;1m Keni futur kodin e gabuar'
-        sleep 2
-        bash "$0"
-        ;;
-esac
 if [[ $islem == 1 || $islem == "01" ]]; then
     clear
 
@@ -331,13 +244,6 @@ else
 	clear 
 	bash alhack.sh
 fi
-
-
-
-
-
-
-
 
 
 
