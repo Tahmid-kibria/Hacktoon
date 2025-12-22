@@ -8,10 +8,10 @@ echo -e '\033[31;40;1m
 ███████║███████║██║     █████╔╝    ██║   ██║   ██║██║   ██║██╔██╗ ██║
 ██╔══██║██╔══██║██║     ██╔═██╗    ██║   ██║   ██║██║   ██║██║╚██╗██║
 ██║  ██║██║  ██║╚██████╗██║  ██╗    ██║   ╚██████╔╝╚██████╔╝██║ ╚████║
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v4.8 2025
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝    ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ v5 2026
   Coded by Tahmid Kibria 
   github: https://github.com/Tahmid-kibria/hacktoon
-\033[33;4mVersion:\033[0m 4.8             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
+\033[33;4mVersion:\033[0m 5             \033[33;4mCTRL+C:\033[0m exit           \033[33;4mAuthor:\033[0m Tahmid_Kibria
 
 \e[37m[1]\e[36m Requests & Updates            \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m Subscan			
@@ -22,6 +22,7 @@ echo -e '\033[31;40;1m
 \e[37m[13]\e[36m VirusCrafter                 \e[37m[14]\e[36m Info-Site
 \e[37m[15]\e[36m BadMod	                  \e[37m[16]\e[36m Facebash
 \e[37m[17]\e[36m DARKARMY                     \e[37m[18]\e[36m AUTO-IP-CHANGER
+\e[37m[19]\e[36m Instragram hack      \e[37m[20]\e[36m 
 '
 
 read -p "Number i transaksionit: " islem
@@ -237,12 +238,29 @@ sleep 8
 python3 install.py
 aut
 
+elif [[ $islem == 19 || $islem == 019 ]]; then
+clear
+echo -e "\033[47;3;35m Instalimi  (name)   \033[0m"
+sleep 3
+cd Tools
+
+elif [[ $islem == 20 || $islem == 020 ]]; then
+clear
+echo -e "\033[47;3;35m Instalimi Instragram hack\033[0m"
+sleep 3
+cd Tools
+git clone https://github.com/SlimEmm/instainsane
+cd instaInsane
+sudo bash install.sh
+tor
+sudo bash instainsane.sh
+
 else   
 	clear
         echo -e '\033[36;40;1m Keni futur kodin e gabuar'	
 	sleep 1
 	clear 
-	bash alhack.sh
+	bash hacktoon.sh
 fi
 
 
