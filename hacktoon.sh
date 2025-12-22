@@ -2,10 +2,7 @@
 # Hacktoon v2.3 - Full Integrated Version for Kali Linux
 
 # Ky bllok fshin automatikisht gabimet e formatimit nga Windows (\r)
-if [[ -f "$0" ]]; then
-    sed -i 's/\r//g' "$0"
-    sed -i 's/\xc2\xa0/ /g' "$0"
-fi
+
 
 clear
 mkdir -p Tools
@@ -334,6 +331,7 @@ else
 	clear 
 	bash alhack.sh
 fi
+
 
 
 
