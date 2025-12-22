@@ -240,20 +240,24 @@ aut
 
 elif [[ $islem == 19 || $islem == 019 ]]; then
 clear
-echo -e "\033[47;3;35m Instalimi  (name)   \033[0m"
-sleep 3
-cd Tools
-
-elif [[ $islem == 20 || $islem == 020 ]]; then
-clear
 echo -e "\033[47;3;35m Instalimi Instragram hack\033[0m"
 sleep 3
 cd Tools
 git clone https://github.com/SlimEmm/instainsane
-cd instaInsane
-sudo bash install.sh
-tor
-sudo bash instainsane.sh
+cd instainsane
+sudo apt install tor
+sudo bash install.sh 
+sudo dpkg --configure -a
+tor 
+clear
+sudo bash instainsane.sh -y
+
+elif [[ $islem == 20 || $islem == 020 ]]; then
+clear
+echo -e "\033[47;3;35m Instalimi (name) \033[0m"
+sleep 3
+cd Tools
+
 
 else   
 	clear
