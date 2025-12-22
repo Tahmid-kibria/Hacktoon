@@ -1,3 +1,4 @@
+sed -i 's/\r$//' hacktoon.sh
 #!/bin/bash
 clear
 mkdir -p Tools
@@ -244,6 +245,7 @@ else
 	clear 
 	bash alhack.sh
 fi
+
 
 
 
