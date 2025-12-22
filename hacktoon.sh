@@ -1,8 +1,5 @@
-dos2unix hacktoon.sh
 #!/bin/bash
 clear
-dos2unix hacktoon.sh
-bash hacktoon.sh
 mkdir -p Tools
 clear 
 echo -e '\033[31;40;1m 
@@ -269,6 +266,7 @@ else
 	clear 
 	bash hacktoon.sh
 fi
+
 
 
 
